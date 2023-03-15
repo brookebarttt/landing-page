@@ -4,7 +4,7 @@ body {
 
 .section1, .header {
     display: flex;
-    background-color: #1F2937;
+    background-color: black;
 }
 
 .section1 {
@@ -29,9 +29,21 @@ body {
     display: flex;
     margin-left: auto;
     gap: 25px;
+    color: rgb(242, 7, 144);
+    font-size: 18px;
+    padding-top: 20px;
 }
 
-.links, .text {
+a {
+    text-decoration: none;
+    color: rgb(242, 7, 144);
+}
+
+a:hover {
+    color:rgb(99, 2, 99)
+}
+
+.text {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -46,28 +58,32 @@ body {
 }
 
 button {
-    background-color: rgb(7, 140, 242);
-    color: white;
+    background-color: rgb(242, 7, 144);
+    color: black;
     padding: 10px;
     font-weight: bold;
     border-radius: 10px;
     border-style: none;
     width: 150px;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: rgb(99, 2, 99);
 }
 
 .title, .text {
-    padding: 0px;
+    padding: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
-.item2 {
+img {
     display: flex;
-    background-color: grey;
-    color: white;
-    height: 250px;
-    width: 800px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
+    height:300px;
+    width: 350px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(242, 7, 144);
+    border-width: 1px;
 }
