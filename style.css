@@ -94,3 +94,62 @@ img {
     border-color: rgb(242, 7, 144);
     border-width: 1px;
 }
+
+.title2 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    color:rgb(242, 7, 144);
+    -webkit-text-stroke: 1px black;
+}
+
+.section2 {
+   margin: 50px;
+}
+
+.season-images {
+    height: 200px;
+    width: 200px;
+}
+
+.seasons {
+    display: flex;
+    gap: 75px;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(62, 58, 58);
+}
+
+.spring, .summer, .fall, .winter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    padding-left: 350px;
+    padding-right: 100px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.quote-text {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.balto {
+    font-size: 28px;
+    font-weight: 900;
+    text-align: right;
+    padding-right: 75px;
+}
