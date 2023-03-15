@@ -131,7 +131,7 @@ img {
 }
 
 .section3 {
-    background-color: #E5E7EB;
+    background-color: black;
 }
 
 .quote {
@@ -145,6 +145,7 @@ img {
     font-size: 32px;
     font-style: italic;
     font-weight: 100;
+    color: #F9FAF8;
 }
 
 .balto {
@@ -152,4 +153,47 @@ img {
     font-weight: 900;
     text-align: right;
     padding-right: 75px;
+    color: #F9FAF8;
+}
+
+.block {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    margin-left: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    outline-style: auto;
+}
+
+.call {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    gap: 0px;
+}
+
+.call-title {
+    font-size: 28px;
+    font-weight: 900;
+    -webkit-text-stroke: 1px rgb(242, 7, 144);
+}
+
+.call-title, .call-text {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.button2 {
+    margin-left: 150px;
+    margin-top: 45px;
+}
+
+.footer {
+    background-color: #E5E7EB;
+}
+
+.footer-text {
+    padding: 25px;
+    text-align: center;
 }
