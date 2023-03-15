@@ -57,6 +57,7 @@ a:hover {
 .title {
     font-size: 48px;
     font-weight: 900;
+    -webkit-text-stroke: 2px rgb(242, 7, 144);
 }
 
 .logo, .title {
