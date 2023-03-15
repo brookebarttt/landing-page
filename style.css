@@ -20,9 +20,15 @@ body {
     padding-right: 100px;
 }
 
-.logo {
+.home {
     font-size: 24px;
     font-weight: 900;
+    padding-top: 20px;
+    color: white;
+}
+
+.home:hover {
+    color:rgb(242, 7, 144);
 }
 
 .links {
