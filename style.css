@@ -163,7 +163,7 @@ img {
     border-radius: 10px;
     display: flex;
     flex-direction: row;
-    outline-style: auto;
+    outline: 3px solid rgb(73, 143, 242);
 }
 
 .call {
